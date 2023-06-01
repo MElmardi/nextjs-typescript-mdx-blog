@@ -17,6 +17,12 @@
   }
 }
 
+::selection {
+  background-color: #705CF5;
+  border-radius: 6px;
+  color: #020202;
+}
+
 /* Post styles */
 
 .prose .anchor {
