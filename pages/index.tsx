@@ -7,7 +7,7 @@ export const Index = (): JSX.Element => {
   return (
     <Layout>
 
-      <div className="flex flex-col items-center justify-center gap-2">
+      <div className="flex flex-col items-center justify-center gap-2 mt-auto">
         <Image
           src={'/images/elmardi.png'}
           alt={'Mohamed Elmardi'}
