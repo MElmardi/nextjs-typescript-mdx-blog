@@ -2,12 +2,8 @@ import { GetStaticProps } from 'next';
 import Image from 'next/image';
 import Layout from '../components/Layout';
 import { getAllPosts } from '../lib/api';
-import { PostType } from '../types/post';
-type IndexProps = {
-  posts: PostType[];
-};
 
-export const Index = ({ posts }: IndexProps): JSX.Element => {
+export const Index = (): JSX.Element => {
   return (
     <Layout>
 
